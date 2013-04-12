@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cookie</title>
+<script src="javascript/cookie.js"></script>
+</head>
+
+<body onLoad="init()">
+<p id="text">欢迎首次访问</p>
+请选择背景颜色：
+<select id="select" onChange="change()">
+<option value="#FFF" selected>White</option>
+<option value="#999">Gray</option>
+<option value="#F00">Red</option>
+<option value="#0F0">Green</option>
+<option value="#00F">Blue</option>
+</select>
+<input type="button" onClick="deleteCookie()" value="删除访问历史" />
+<input type="button" onClick="closePage()" value="关闭窗口" />
+</body>
+</html>
