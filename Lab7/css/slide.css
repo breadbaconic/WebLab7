@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+    body {font-family: Arial;}  
+    div.slide {display: none; height: 450px; left: 20px; padding: 20px; 
+               position: absolute; text-align: center; top: 20px; border: solid 2px black;}
+    div b {font-size: 1.4em; font-family: "Script MT Bold"}
+    div button {font-family: Arial;}
